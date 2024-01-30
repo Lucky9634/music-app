@@ -159,3 +159,30 @@ nav ul li a:hover{
     text-align: center;
     border-radius: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    .cantainer {
+        width: 90%;
+    }
+
+    .songList {
+        height: 70vh;
+    }
+
+    .centre-logo {
+        margin: 20px auto;
+    }
+
+    .songInfo span {
+        display: none;
+    }
+
+    .songItem {
+        width: 75%;
+    }
+
+    .songItem img {
+        margin-left: 4px;
+    }
+}
+
