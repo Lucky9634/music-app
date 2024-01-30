@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Ubuntu&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(206, 68, 206);
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    height: 35px;
+    background-color: black;
+    list-style: none;
+    align-items: center;
+}
+nav ul li{
+    margin: 0px 2px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: #fff;
+    /* text-transform: uppercase; */
+}
+nav ul li a:hover{
+    margin-left: 40px;
+    color: brown;
+    letter-spacing: 0.1em;
+    transition: all 0.5s;
+}
+
+
+.logo{
+    width: 95px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: bolder;
+}
+.logo img{
+    height: 25px;
+    width: 25px;
+    border-radius: 60px;
+    margin: 0px 6px;
+}
+.cantainer{
+    min-height: 80vh;
+    margin: 6px auto;
+    padding: 10px 10px;
+    border-radius: 30px;
+    width: 55%;
+    color: #ffff;
+    background: url(cover/bg2.png) no-repeat center center;
+    
+}
+.Bottom{
+    position: sticky;
+    bottom: 0;
+    height: 85px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    color: white;
+    display: flex;
+    margin: 2px 2px;
+}
+.icons i{
+    color: white;
+    margin: 5px 2px;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 0px 4px ;
+
+}
+.songList h2{
+    margin-top: 50px;
+}
+.songList{
+    overflow-y: scroll;
+    height: 75vh;
+    padding: 6px 0px;
+    margin-top: 13px;
+}
+.songItem{
+    height: 40px;
+    display: flex;
+    width: 55%;
+    background-color: beige;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 6px;
+
+}
+.songItem img{
+    height: 35px;
+    width: 35px;
+    border-radius: 34px;
+}
+.songListPlay i{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.timeStamp{
+    padding: 0px 10px;
+}
+.songItemContainer{
+    margin-top: 30px;
+
+}
+.songInfo{
+    position: absolute;
+    left: 11vw;
+    bottom: 13px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.songInfo img{
+    height: 30px;
+    width: 40px;
+    opacity: 0;
+    transition: opacity 1s ease-in
+}
+.songInfo span{
+    font-size: 12px;
+    margin: 7px 8px;
+}
+
+.centre-logo{
+    width: 0%;
+    margin: 2px auto;
+    /* position: fixed; */
+}
+.centre-logo img{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 30px;
+}
